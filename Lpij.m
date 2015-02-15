@@ -1,6 +1,6 @@
 function Lp = Lpij( w1,w2,Dx,l1,l2,Dy,Dz )
 %Lp is nH
-%   Detailed explanation goes here
+% partial inductance calculation
 SMALL_NO=1e-10;
 a(1)=Dx-l1/2-l2/2;
 a(2)=Dx+l1/2-l2/2;
